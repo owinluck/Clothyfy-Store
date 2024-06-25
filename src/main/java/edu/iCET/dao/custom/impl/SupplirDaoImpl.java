@@ -45,8 +45,6 @@ public class SupplirDaoImpl implements SupplirDao {
                         )
                 );
             }
-            System.out.println(supplirList);
-            System.out.println("owinEkanayake");
             return supplirList;
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
