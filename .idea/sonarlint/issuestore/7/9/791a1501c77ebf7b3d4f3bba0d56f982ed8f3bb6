@@ -1,0 +1,44 @@
+
+w
+java:S3740"/Provide the parametrized type for this generic.(˜¾™„ıÿÿÿÿ8º¹©ò„2J$5a14478e-320c-4747-8862-bc553875d79d
+w
+java:S3740"/Provide the parametrized type for this generic.(Øóİ¿ùÿÿÿÿ8Œäªò„2J$64f3e93a-ca25-4db6-8d7b-35e82700b422
+w
+java:S3740"/Provide the parametrized type for this generic.(Šì›úÿÿÿÿ8±«ò„2J$7419dad9-7a2f-4d10-80ac-92f8ad15dab3
+Ÿ
+java:S1104"WMake txtItemCode a static final constant or non-public and provide accessors if needed.(øÜÜ¡üÿÿÿÿ8Ş¡©ò„2J$b67ccf24-32f0-4fb4-98a0-53f8da741011
+§
+java:S1104"_Make cmdSelectSupplierId a static final constant or non-public and provide accessors if needed.(˜¾™„ıÿÿÿÿ8½¹©ò„2J$d62b9f1e-979d-45cc-a834-994f7ebd0cc3
+¢
+java:S1104"ZMake txtDescription a static final constant or non-public and provide accessors if needed.(«’›™ùÿÿÿÿ8é©ò„2J$9297daf9-e936-496d-b083-b61a77e75d9e
+š
+java:S1104"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8Óˆªò„2J$53db290e-2f29-4e1c-b3cf-9a18165fe763
+
+java:S1104"ZMake txtBuyingPrice a static final constant or non-public and provide accessors if needed.(ùÊô§8Å©ªò„2J$6215634f-1380-4450-953e-0418d726f5c0
+£
+java:S1104"[Make txtSellingPrice a static final constant or non-public and provide accessors if needed.(Çô¯Óıÿÿÿÿ8¼Êªò„2J$da7697b1-f9ca-4eda-af88-c1a9e8df9f25
+¡
+java:S1104"YMake cmdSelectType a static final constant or non-public and provide accessors if needed.(Øóİ¿ùÿÿÿÿ8‘äªò„2J$6f1ff851-8df8-4fca-b416-70cbaaeffe87
+¡
+java:S1104"YMake cmdSelectSize a static final constant or non-public and provide accessors if needed.(Šì›úÿÿÿÿ8¹«ò„2J$8ca94034-f7a8-4c17-a33e-0d728e022341
+›
+java:S1104"SMake txtType a static final constant or non-public and provide accessors if needed.(ø¡Ëüşÿÿÿÿ8º«ò„2J$9d5207ce-7466-4be0-8ed3-f48e574f8815
+›
+java:S1104"SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8•Ÿ«ò„2J$8b49867f-f3fa-4550-9a54-0b648255af24
+
+java:S1104"UMake lblProfit a static final constant or non-public and provide accessors if needed.(®ğ¿ úÿÿÿÿ8àĞ«ò„2J$6ac8d7e2-cbf1-41a4-877f-1b7886b7b80b
+˜
+java:S1104"UMake txtSearch a static final constant or non-public and provide accessors if needed.(ïò˜§8Á¨¬ò„2J$220ca431-0066-407d-aff2-13e818e53ebb
+£
+java:S1104"[Make txtSupplierName a static final constant or non-public and provide accessors if needed.(Í­´Üùÿÿÿÿ8Á¨¬ò„2J$e559bc02-8ec4-41f4-adb8-26e1955ce97e
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßşÂ±úÿÿÿÿJ$595aa43c-857d-40aa-ac44-16345229eb61
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(»…ä«ùÿÿÿÿ8¬Ÿ«ò„2J$0573798b-b614-48d2-aafb-618d75ec2a74
+Ä
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÎŠä’8­Ÿ«ò„2J$bb34787e-b99b-497a-8be9-f4b4e87b00fb
+É
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿˜å•øÿÿÿÿ8­Ÿ«ò„2J$2e000758-22dd-44c0-a8a9-db73eed132ba
+Ä
+java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ“‘8®Ÿ«ò„2J$9c915b99-0311-4330-a787-3d764c29645e
+Ä
+java:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚ƒàü8®Ÿ«ò„2J$d7484f48-0bf5-4ef5-a203-e6ba8a1002fa

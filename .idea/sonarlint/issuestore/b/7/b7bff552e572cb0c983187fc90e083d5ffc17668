@@ -1,0 +1,6 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³‚“Èøÿÿÿÿ8ÅÀŒÏ‚2J$a77133c2-a60e-49d9-a06c-34753b5ec68a
+‚
+java:S1128":Remove this unused import 'edu.iCET.entity.SupplirEntity'.(·Ä¼½üÿÿÿÿ8»ÿ¤Ï‚2J$87c984f6-f7d5-4e0c-86ed-570b3759e8b2
+{
+java:S1128"8Remove this unused import 'java.util.function.Supplier'.(†ïÿ‘8»ÿ¤Ï‚2J$7ea2c14b-92bb-4c9c-a953-466cb85d7ecd

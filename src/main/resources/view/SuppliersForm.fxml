@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="766.0" style="-fx-background-radius: 20; -fx-background-color: #d1d1d1;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controller.supplir.SupplirsController">
+   <children>
+      <Label layoutX="54.0" layoutY="338.0" prefHeight="165.0" prefWidth="670.0" style="-fx-background-color: #607D8B; -fx-background-radius: 10;" />
+      <TableView fx:id="tblSuppliers" fixedCellSize="-10.0" layoutX="54.0" layoutY="55.0" prefHeight="254.0" prefWidth="670.0" style="-fx-background-color: #ffffff; -fx-background-size: 10;">
+        <columns>
+          <TableColumn fx:id="colSupplierId" prefWidth="147.9999656677246" style="-fx-background-color: #757575;" text="Supplier_Id" />
+            <TableColumn fx:id="colName" prefWidth="162.40003967285156" style="-fx-background-color: #757575;" text="Name" />
+            <TableColumn fx:id="colCompany" prefWidth="166.4000244140625" style="-fx-background-color: #757575;" text="Company" />
+            <TableColumn fx:id="colEmail" prefWidth="191.19998779296873" style="-fx-background-color: #757575;" text="Email" />
+        </columns>
+      </TableView>
+      <Label layoutX="54.0" layoutY="14.0" prefHeight="28.0" prefWidth="170.0" text="Suppliers" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="308.0" prefHeight="28.0" prefWidth="170.0" text="Add Suppliers-Form" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtName" layoutX="298.0" layoutY="397.0" prefHeight="26.0" prefWidth="153.0" promptText="Supplier Name" unFocusColor="#a49b9b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtCompany" layoutX="298.0" layoutY="434.0" prefHeight="26.0" prefWidth="153.0" promptText="Company" unFocusColor="#a49b9b">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtEmail" layoutX="298.0" layoutY="467.0" onKeyPressed="#checkField" prefHeight="26.0" prefWidth="153.0" promptText="Email" unFocusColor="#a49b9b">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></JFXTextField>
+      <JFXButton alignment="CENTER" layoutX="551.0" layoutY="355.0" onAction="#btnAddOnAction" prefHeight="40.0" prefWidth="106.0" style="-fx-background-color: #1664BC; -fx-background-radius: 12;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lblEmailError" layoutX="389.0" layoutY="466.0" prefHeight="18.0" prefWidth="78.0" text="Invalid Email" textFill="#ff0101">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="69.0" layoutY="462.0" onAction="#btnImageOnAction" prefHeight="27.0" prefWidth="121.0" style="-fx-background-color: #00BCD4; -fx-background-radius: 3;" text="Add a Picture" textFill="WHITE" underline="true">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></JFXButton>
+      <ImageView fx:id="imgSupplier" fitHeight="103.0" fitWidth="121.0" layoutX="78.0" layoutY="345.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-user-100.png" />
+         </image></ImageView>
+      <Label layoutX="218.0" layoutY="362.0" prefHeight="26.0" prefWidth="93.0" text=" Supplier ID : " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSupplierId" layoutX="341.0" layoutY="362.0" prefHeight="26.0" prefWidth="68.0" text="S001" textFill="#b40101" underline="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="551.0" layoutY="456.0" onAction="#btnDeletOnAction" prefHeight="40.0" prefWidth="106.0" style="-fx-background-color: #e40606; -fx-background-radius: 12;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="551.0" layoutY="403.0" onAction="#btnUpdateOnAction" prefHeight="40.0" prefWidth="106.0" style="-fx-background-color: #F57F17; -fx-background-radius: 12;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="578.0" layoutY="15.0" onAction="#btnSearchOnAction" prefHeight="26.0" prefWidth="78.0" style="-fx-background-color: #43A047; -fx-background-radius: 5;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtSearchId" layoutX="457.0" layoutY="14.0" prefHeight="27.0" prefWidth="106.0" promptText="Serach">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="218.0" layoutY="397.0" prefHeight="26.0" prefWidth="93.0" text="Name :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="434.0" prefHeight="26.0" prefWidth="93.0" text="Company :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="218.0" layoutY="467.0" prefHeight="26.0" prefWidth="93.0" text="Email :" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="-53.39996337890625" endY="117.19998168945312" layoutX="539.0" layoutY="375.0" startX="-53.39996337890625" startY="-20.399993896484375" stroke="#232121" />
+      <ImageView accessibleRole="BUTTON" fitHeight="34.0" fitWidth="40.0" layoutX="510.0" layoutY="358.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-add-button-100.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="510.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-update-96.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="40.0" layoutX="510.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-delete-240.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="666.0" layoutY="15.0" onAction="#btnClearOnAction" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: #1664BC; -fx-background-radius: 5;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

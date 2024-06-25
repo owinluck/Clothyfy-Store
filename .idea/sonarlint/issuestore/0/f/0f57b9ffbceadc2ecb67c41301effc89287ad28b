@@ -1,0 +1,64 @@
+
+	java:S112¶"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ßíÈµƒ2J$33d5d827-eb41-4d45-9580-4d02132f9b84
+r
+java:S3740)"/Provide the parametrized type for this generic.(«ÜâË8áíÈµƒ2J$ee885c53-122d-4a94-a5d8-0442f6b0a0ae
+r
+java:S3740*"/Provide the parametrized type for this generic.(Ÿœ¼‘8áíÈµƒ2J$5733f0b1-7cef-4219-bec4-dacb832f0068
+w
+java:S3740+"/Provide the parametrized type for this generic.(ÊÚÎ¨ùÿÿÿÿ8áíÈµƒ2J$cc746f12-eba0-49f0-aab2-735428326213
+w
+java:S3740,"/Provide the parametrized type for this generic.(°Äˆ´ÿÿÿÿÿ8áíÈµƒ2J$d312b338-b40a-4154-8f88-3f7624761d3d
+r
+java:S3740-"/Provide the parametrized type for this generic.(ƒäÆ8áíÈµƒ2J$d9a4ad3f-25b6-4a32-a4f8-6d25bd13c878
+”	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò„¸ğ8§´ºö„2J$68f5a336-6f9d-4b39-a0b2-48e86855aa38
+›
+java:S1104)"XMake tblSuppliers a static final constant or non-public and provide accessors if needed.(«ÜâË8æíÈµƒ2J$fc63b7db-78d0-4400-9021-0a55bc55794e
+œ
+java:S1104*"YMake colSupplierId a static final constant or non-public and provide accessors if needed.(Ÿœ¼‘8æíÈµƒ2J$51425186-00ed-4605-8034-75c329d24300
+›
+java:S1104+"SMake colName a static final constant or non-public and provide accessors if needed.(ÊÚÎ¨ùÿÿÿÿ8æíÈµƒ2J$f3014401-3d96-4a8a-b951-eb356b3c0546
+
+java:S1104,"VMake colCompany a static final constant or non-public and provide accessors if needed.(°Äˆ´ÿÿÿÿÿ8æíÈµƒ2J$534e4a21-331f-425e-a03e-7d18d3fc9fa1
+—
+java:S1104-"TMake colEmail a static final constant or non-public and provide accessors if needed.(ƒäÆ8æíÈµƒ2J$49f2fedd-6e85-4bd9-b56b-8880d024332e
+Ÿ
+java:S1104."WMake txtSearchId a static final constant or non-public and provide accessors if needed.(êû‡şÿÿÿÿ8æíÈµƒ2J$4d6621d7-0e01-4e7d-843d-adc6804ccacf
+›
+java:S1104/"SMake txtName a static final constant or non-public and provide accessors if needed.(¨äİìÿÿÿÿÿ8æíÈµƒ2J$4724ed25-50bd-483c-a184-2a0a73fd8d29
+™
+java:S11040"VMake txtCompany a static final constant or non-public and provide accessors if needed.(Úù÷ê8æíÈµƒ2J$3a840f1b-6399-4cc3-bb24-a53992d29986
+œ
+java:S11041"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8æíÈµƒ2J$23942394-5837-449e-9a9c-a6926a85aae0
+¡
+java:S11042"YMake lblEmailError a static final constant or non-public and provide accessors if needed.(Ÿ½®şúÿÿÿÿ8æíÈµƒ2J$07b04b6f-06f6-40f7-b1dc-1d4d48d87ef6
+Ÿ
+java:S11043"WMake imgSupplier a static final constant or non-public and provide accessors if needed.(Ô İ—øÿÿÿÿ8æíÈµƒ2J$8352c038-da6b-4fb0-b862-b41c2c052abc
+›
+java:S11044"YMake lblSupplierId a static final constant or non-public and provide accessors if needed.(ñÈØ8çíÈµƒ2J$6a67c434-d10a-4d1c-b6ed-a497ff13fe21
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬èì8ëíÈµƒ2J$4edf6047-ab7d-4565-bef8-4909cee20649
+
+java:S2095š"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8éÆ«ˆ„2J$ad34132b-ef49-43d7-8914-f89d9994f2da
+
+java:S2095¥"GUse try-with-resources or close this "Statement" in a "finally" clause.(›ï¢Üùÿÿÿÿ8éÆ«ˆ„2J$ca9332b2-0a67-41d8-98c4-830948d66d9e
+w
+java:S1172@"/Remove this unused method parameter "keyEvent".(±æ‡Øıÿÿÿÿ8¼îÈµƒ2J$b31e1073-26e7-42e7-bbea-9955b573ffcd
+„
+java:S5842L"<Rework this part of the regex to not match the empty string.(ØÈèÇùÿÿÿÿ8¿îÈµƒ2J$42c073f4-636d-43ad-8e6f-23ea4d68159c
+t
+java:S1172U"2Remove this unused method parameter "actionEvent".(¾¹‘@8ÁîÈµƒ2J$c5c6b42f-565a-4f7c-b17f-73efd46a659c
+ƒ	java:S125j"<This block of commented-out lines of code should be removed.(†Ñº—øÿÿÿÿ8ÅîÈµƒ2J$b9184f06-4cc3-43ee-b4d5-c534b654dd99
+{
+java:S1172’"2Remove this unused method parameter "actionEvent".(í«ç¬ÿÿÿÿÿ8ÑîÈµƒ2J$7de51d28-14da-47cb-aaa7-5bd736db0522
+„	java:S125Ø"<This block of commented-out lines of code should be removed.(†Ñº—øÿÿÿÿ8ãµºö„2J$8fe774d8-82fc-400c-b4c7-442466edfab1
+{
+java:S1172Û"2Remove this unused method parameter "actionEvent".(Ø¬ÖŠùÿÿÿÿ8É¬¯ö„2J$980bd412-4cbc-442e-8e0d-2a71140af10b
+~
+java:S1854ñ":Remove this useless assignment to local variable "update".(÷´øæ8ÕüÀö„2J$2578d284-caae-48a6-8208-a3f3dcc5b005
+{
+java:S1172é"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8ÊÓÀö„2J$37c36e84-6b08-4ab4-89b2-26245f99ebbf
+o
+java:S1481ñ"+Remove this unused "update" local variable.(÷´øæ8×üÀö„2J$aad71308-24d6-45ed-9866-bdf9ec3e80e4
+v
+java:S1172÷"2Remove this unused method parameter "actionEvent".(áÄ´ü8ÙüÀö„2J$f388942a-1178-48e1-9c4a-a27450fc7b9d
+v
+java:S1172¦"2Remove this unused method parameter "actionEvent".(ŠÜÎ£8‹ÄÁö„2J$6c7eb2d2-0e6d-4e99-94a1-4c60f12a466e

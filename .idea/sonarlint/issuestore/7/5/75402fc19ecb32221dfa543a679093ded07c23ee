@@ -1,0 +1,57 @@
+
+	java:S112ê"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8º Ü„2J$2132d7de-3a43-462b-ba86-d8c18cee2482
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8» Ü„2J$db8594e0-fbe6-4808-9144-8c1e975ceddf
+r
+java:S3740/"/Provide the parametrized type for this generic.(¯ËÔì8¼ Ü„2J$299da236-09d2-431b-b168-d72f2463b10b
+w
+java:S37402"/Provide the parametrized type for this generic.(ËéõÃÿÿÿÿÿ8¼ Ü„2J$077fd2ba-cd4e-4168-8244-bcbf46ceccb8
+w
+java:S37405"/Provide the parametrized type for this generic.(üáÏ—ÿÿÿÿÿ8¼ Ü„2J$aefc546b-dbcf-45c5-a817-ee2a32511039
+¡
+java:S1104)"YMake lblCustomerId a static final constant or non-public and provide accessors if needed.(ã²ˆ¹ÿÿÿÿÿ8¾ Ü„2J$cd4e5261-8dca-4731-b307-89544e8d5214
+›
+java:S1104*"XMake txtFirstName a static final constant or non-public and provide accessors if needed.(µõÄú8¾ Ü„2J$ab0014cd-fff7-4a18-bdcc-1ca8d5cb2d29
+š
+java:S1104+"WMake txtLastName a static final constant or non-public and provide accessors if needed.(ÁŠÂ 8¾ Ü„2J$53b99fd8-1c9d-4732-8696-562020fe331c
+£
+java:S1104,"[Make txtMobileNumber a static final constant or non-public and provide accessors if needed.(İ½¨şÿÿÿÿ8¾ Ü„2J$383ae856-8fd6-4554-8f7d-dc7debc57b5e
+
+java:S1104-"VMake txtAddress a static final constant or non-public and provide accessors if needed.(©ûîùıÿÿÿÿ8¿ Ü„2J$8d3b92fd-6a42-418b-a776-0cb1594abade
+–
+java:S1104."SMake txtCity a static final constant or non-public and provide accessors if needed.(Õ•÷8¿ Ü„2J$0c211982-f144-4e5e-b9dc-129bc9a188b3
+š
+java:S1104/"WMake cmdProvince a static final constant or non-public and provide accessors if needed.(¯ËÔì8¿ Ü„2J$12f9594d-fb7b-4662-bac2-938f7f0d56f2
+¡
+java:S11040"YMake txtPostalCode a static final constant or non-public and provide accessors if needed.(ø®ô”ùÿÿÿÿ8¿ Ü„2J$6676d3a6-ab7e-4577-acbc-efcc02287d75
+Ÿ
+java:S11041"WMake txtSearchId a static final constant or non-public and provide accessors if needed.(êû‡şÿÿÿÿ8¿ Ü„2J$6a42dee0-028d-4e57-9230-56e00077f56c
+œ
+java:S11042"TMake cmdTitle a static final constant or non-public and provide accessors if needed.(ËéõÃÿÿÿÿÿ8¿ Ü„2J$83abb764-5f51-4e5a-b625-abb281cb9a61
+¥
+java:S11043"bMake customerFormAnchorPane a static final constant or non-public and provide accessors if needed.(ßŒ°Ã8¿ Ü„2J$0dba7fcb-c45c-413f-bc15-c9cf1079f61e
+š
+java:S11044"WMake imgCustomer a static final constant or non-public and provide accessors if needed.(¿²ù´8¿ Ü„2J$e5532772-3abc-4efd-aa7c-b4d2ad12a9bb
+¡
+java:S11045"YMake cmdCustomerId a static final constant or non-public and provide accessors if needed.(üáÏ—ÿÿÿÿÿ8¿ Ü„2J$68bfeda6-a21b-4b6b-9499-172582681bab
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª‘×ª8Å Ü„2J$11dee464-8a73-4b01-a1f4-7a90c717b415
+‹
+java:S2095ü"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÖÉ–ÿ8¨¡Ü„2J$f7402047-7899-4507-b9a4-98cd61d2780d
+
+java:S2095ñ"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¨¡Ü„2J$e60d6759-378e-4c5e-b8ba-bf5b884329d1
+ƒ	java:S125["<This block of commented-out lines of code should be removed.(ŒáÜ´ùÿÿÿÿ8À¡Ü„2J$885c80f9-3473-4481-85fe-c79252874a45
+t
+java:S1602v",Remove useless curly braces around statement(ÈçŒ½şÿÿÿÿ8È¡Ü„2J$b71b6302-3346-4e3c-b43b-ca9ec327565a
+{
+java:S1172“"2Remove this unused method parameter "actionEvent".(ø¬ıãûÿÿÿÿ8Î¡Ü„2J$ee876cfb-465d-4158-931f-8f996e596640
+{
+java:S1172¬"2Remove this unused method parameter "actionEvent".(Úó¥üøÿÿÿÿ8Ü¡Ü„2J$78466260-8d6f-4a09-893d-1de08fd6c260
+v
+java:S1172Ú"2Remove this unused method parameter "actionEvent".(Œ“‘8ç¡Ü„2J$4e9983d1-603b-4266-a0c5-3661acd2214d
+{
+java:S1172ä"2Remove this unused method parameter "actionEvent".(†ùàıÿÿÿÿ8é¡Ü„2J$f497f43b-b812-4658-a48e-6c61cdd32a6d
+{
+java:S1172£"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8ı¡Ü„2J$001d33ee-2433-434e-a6fe-ed34ef539cf6
+u
+java:S1128"2Remove this unused import 'edu.iCET.dto.Supplirs'.(‰ŞÍ8‚¢Ü„2J$21ad6651-b596-41bd-8667-0df113054377
+w
+java:S1144".Remove this unused private "showAlert" method.(¯™ïıùÿÿÿÿ8ƒ¢Ü„2J$b86e03a2-db7e-4e6e-94fc-af5964b230a1

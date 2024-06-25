@@ -1,0 +1,16 @@
+
+g	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÿá…€…2
+g	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8â…€…2
+g	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ƒâ…€…2
+g	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8„â…€…2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÜÓ„8Šâ…€…2
+d
+java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.(¢ˆ°Ë8Ãâ…€…2
+c
+java:S2095O"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÿŠ:8Ââ…€…2
+X
+java:S1128"6Remove this unused import 'org.hibernate.query.Query'.(¤— ´ûÿÿÿÿ8‘ò€…2
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8‚‘ò€…2
+e
+java:S1128"CRemove this unused import 'edu.iCET.util.HibernateUtil.getSession'.(êÏËÀşÿÿÿÿ8ƒ‘ò€…2

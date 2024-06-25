@@ -1,0 +1,6 @@
+package edu.iCET.util;
+
+public enum DaoType {
+
+    Supplirs,Customers
+}

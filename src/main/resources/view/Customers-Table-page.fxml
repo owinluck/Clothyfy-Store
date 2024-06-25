@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="CustomerTableAnchorPane" prefHeight="518.0" prefWidth="766.0" style="-fx-background-color: #d1d1d1; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controller.customer.CustomerTablePageController">
+   <children>
+      <Label layoutX="40.0" layoutY="26.0" prefHeight="32.0" prefWidth="131.0" text="Customers" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblCustomer01" layoutX="40.0" layoutY="58.0" prefHeight="214.0" prefWidth="670.0">
+        <columns>
+          <TableColumn fx:id="colCustomerId" prefWidth="150.3999900817871" text="Customer_ID" />
+          <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
+            <TableColumn fx:id="colTitle" prefWidth="75.0" text=" Title" />
+            <TableColumn fx:id="colFirstName" prefWidth="137.0" text="First Name" />
+            <TableColumn fx:id="colLastName" prefWidth="142.0" text="Last Name" />
+            <TableColumn fx:id="colPhoneNumber" prefWidth="164.0" text="Phone_Number" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tblCustomer02" layoutX="40.0" layoutY="279.0" prefHeight="214.0" prefWidth="670.0">
+         <columns>
+            <TableColumn fx:id="colCustomerId2" prefWidth="150.3999900817871" text="Customer_ID" />
+            <TableColumn minWidth="0.0" prefWidth="0.0" text="C2" />
+            <TableColumn fx:id="colAddress" prefWidth="162.40003967285156" text="Address" />
+            <TableColumn fx:id="colCity" prefWidth="119.99993896484375" text="City" />
+            <TableColumn fx:id="colProvince" prefWidth="126.39990234375" text="Provice" />
+            <TableColumn fx:id="colPostalCode" prefWidth="126.39990234375" text="Postal_Code" />
+         </columns>
+      </TableView>
+      <JFXButton layoutX="587.0" layoutY="14.0" onAction="#btnCustomerRegisterOnAction" prefHeight="32.0" prefWidth="122.0" style="-fx-background-color: #D32F2F; -fx-background-radius: 5;" text="Register Customer" textFill="#f7f7f7" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

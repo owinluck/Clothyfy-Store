@@ -1,0 +1,8 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸½öêüÿÿÿÿ8˜ú„2J$c1a6a1e6-aec3-4562-b733-ea086ebd2561
+™	java:S116"RRename this field "Company" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úƒ†‚ıÿÿÿÿ8’˜ú„2J$7e9677de-11c3-4e62-b710-d1b2e2f42b75
+’	java:S116"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áï»‚8“˜ú„2J$f9d85014-2490-49a4-9ac7-54bbb78f90d0
+\
+java:S1128":Remove this unused import 'jakarta.persistence.OneToMany'.( ëîéúÿÿÿÿ8¢¼‘€…2
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¢¼‘€…2
