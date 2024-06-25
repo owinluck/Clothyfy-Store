@@ -209,6 +209,7 @@ public class CustomerRegisterFormController implements Initializable {
             new Alert(Alert.AlertType.CONFIRMATION,"Customer Added....").show();
             clearText();
             generateOrderId();
+            lordCustomerId();
         }else {
             new Alert(Alert.AlertType.CONFIRMATION,"Customer Not Added....").show();
         }

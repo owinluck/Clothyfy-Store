@@ -1,8 +1,8 @@
 
 q
-java:S1121".Extract the assignment out of this expression.(Ùûé‘8¯Ë€…2J$fd466f7c-7c21-43b6-a8fb-42330656ea54
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”ÌÉÙúÿÿÿÿ8³Ë€…2J$22fd868a-c57a-4044-9c46-abdc1924aa5e
+java:S1121".Extract the assignment out of this expression.(Ùûé‘8„Ê›ˆ…2J$d4c43bca-1f85-4785-82e4-d2e39a04abf1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”ÌÉÙúÿÿÿÿ8…Ê›ˆ…2J$a7b7d6a5-9df2-478c-8377-c13609943f48
 Ü
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÄßÜê8ÀË€…2J$7224db69-ba52-42b5-a848-0e1fd0aa5371
-
-java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ÜŸ•8ÇË€…2J$76fd0df3-e11a-490f-851e-0763818cd63b
+java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ÄßÜê8‹Ê›ˆ…2J$4519df1f-8fe8-4a06-8158-2db289c6aac4
+‡
+java:S1128"?Remove this unused import 'edu.iCET.bo.custom.impl.ItemBoImpl'.(÷¯‰øÿÿÿÿ8Ê›ˆ…2J$7d8ecd36-eb87-4b06-861a-da3dff46d280

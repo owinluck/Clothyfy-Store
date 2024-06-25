@@ -2,3 +2,7 @@
 œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ¤ Æ8×€øÛ„2J$bee431bf-c20e-49eb-a07f-902e41b443bb
 N
 java:S1602",Remove useless curly braces around statement(ËùÛâúÿÿÿÿ8Áæó„2
+O
+java:S1128"2Remove this unused import 'edu.iCET.dto.Supplirs'.(‰ŞÍ8¶¨ ˆ…2
+\
+java:S1128	":Remove this unused import 'edu.iCET.entity.SupplirEntity'.(·Ä¼½üÿÿÿÿ8¶¨ ˆ…2

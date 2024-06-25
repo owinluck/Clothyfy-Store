@@ -2,5 +2,5 @@ package edu.iCET.util;
 
 public enum BoType {
 
-    Supplirs,Customers
+    Supplirs,Customers,Item
 }

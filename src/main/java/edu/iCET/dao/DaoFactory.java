@@ -1,6 +1,8 @@
 package edu.iCET.dao;
 
+import edu.iCET.bo.custom.impl.ItemBoImpl;
 import edu.iCET.dao.custom.impl.CustomerDaoImpl;
+import edu.iCET.dao.custom.impl.ItemDaoImpl;
 import edu.iCET.dao.custom.impl.SupplirDaoImpl;
 import edu.iCET.util.DaoType;
 
@@ -17,6 +19,7 @@ public class DaoFactory {
         switch (type){
             case Supplirs:return (T) new SupplirDaoImpl();
             case Customers:return (T)new CustomerDaoImpl();
+            case Item:return (T) new ItemDaoImpl();
         }
         return null;
     }

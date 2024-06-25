@@ -15,16 +15,13 @@ public class ItemEntity {
 
     @Id
     private String itemCode;
-    //private String supplierId;
     private String description;
     private Integer qty;
     private Integer buyingPrice;
     private Integer sellingPrice;
     private String type;
     private String size;
-    private Integer profit;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "supplierId",referencedColumnName = "supplierId")
-    private SupplirEntity supplier;
+    private Double profit;
+    private String supplierId;
+    private String imgUrl;
 }

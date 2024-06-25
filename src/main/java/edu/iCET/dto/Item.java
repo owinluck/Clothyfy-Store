@@ -12,12 +12,13 @@ import lombok.ToString;
 public class Item {
 
     private String itemCode;
-    private String supplierId;
     private String description;
     private Integer qty;
     private Integer buyingPrice;
     private Integer sellingPrice;
     private String type;
     private String size;
-    private Integer profit;
+    private Double profit;
+    private String supplierId;
+    private String imgUrl;
 }
