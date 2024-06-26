@@ -76,8 +76,6 @@ $src/main/java/edu/iCET/dto/Item.java,d\5\d507b58775fe60c4610268ae1e82000fe7578
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-c
-3src/main/java/edu/iCET/dao/custom/impl/ItemDao.java,3\f\3f121392bed806ecdc4be2801a793bf3ae285bb2
 ^
 .src/main/java/edu/iCET/dao/custom/ItemDao.java,8\3\83caa984277458abda0b073cd4289ead9eef596a
 g

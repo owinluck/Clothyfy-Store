@@ -66,7 +66,7 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblProfit" layoutX="470.0" layoutY="241.0" prefHeight="23.0" prefWidth="98.0" text="520.0" textFill="#fa0000">
+      <Label fx:id="lblProfit" layoutX="470.0" layoutY="241.0" prefHeight="23.0" prefWidth="98.0" textFill="#fa0000">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -91,7 +91,6 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Button>
-      <JFXTextField fx:id="txtSearch" layoutX="457.0" layoutY="43.0" prefHeight="26.0" prefWidth="222.0" promptText="Search" />
       <JFXTextField fx:id="txtSupplierName" editable="false" layoutX="174.0" layoutY="177.0" prefHeight="26.0" prefWidth="158.0" promptText="Ite" text="Supplier Name" />
       <ImageView fx:id="imgProduct" fitHeight="103.0" fitWidth="121.0" layoutX="609.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -103,5 +102,6 @@
             <Font name="System Bold" size="13.0" />
          </font>
       </JFXButton>
+      <JFXComboBox fx:id="cmdSelectItemCode" layoutX="404.0" layoutY="43.0" prefHeight="26.0" prefWidth="167.0" promptText="Select Item Code" unFocusColor="#2e2a2a" />
    </children>
 </AnchorPane>

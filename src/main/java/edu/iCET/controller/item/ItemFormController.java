@@ -30,6 +30,8 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.net.URL;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -56,6 +58,7 @@ public class ItemFormController implements Initializable {
     public JFXTextField txtSearch;
     public JFXTextField txtSupplierName;
     public ImageView imgProduct;
+    public JFXComboBox cmdSelectItemCode;
 
     private SupplierBo supplierBo= BoFactory.getInstance().getBo(BoType.Supplirs);
     private ItemBo itemBo=BoFactory.getInstance().getBo(BoType.Item);
@@ -65,12 +68,60 @@ public class ItemFormController implements Initializable {
         lordSupplierId();
         lordDropMenuForType();
         generateOrderId();
+        lordItemCode();
 
         cmdSelectSupplierId.getSelectionModel().selectedItemProperty().addListener((observable,oldValue,newValue) ->{
             //System.out.println(newValue);
             setSupplierDataFortxtFieldName((String)newValue);
         });
+        cmdSelectItemCode.getSelectionModel().selectedItemProperty().addListener((observable,oldValue,newValue) ->{
+            System.out.println(newValue);
+
+            setItemDataFortxtField((String)newValue);
+        });
+
     }
+
+    private void setItemDataFortxtField(String newValue) {
+
+        Item search = itemBo.search(newValue);
+        System.out.println(search);
+
+        txtItemCode.setText(search.getItemCode());
+        cmdSelectSupplierId.setValue(search.getSupplierId());
+        setSupplierDataFortxtFieldName(search.getSupplierId());
+        txtDescription.setText(search.getDescription());
+        txtQty.setText(String.valueOf(search.getQty()));
+        txtBuyingPrice.setText(String.valueOf(search.getSellingPrice()));
+        txtSellingPrice.setText(String.valueOf(search.getSellingPrice()));
+        cmdSelectType.setValue(search.getType());
+        txtSize.setText(search.getSize());
+        lblProfit.setText(String.valueOf(search.getProfit()));
+
+        String imgUrl=search.getImgUrl();
+        if(imgUrl != null && !imgUrl.trim().isEmpty()){
+
+            Path imagePath= Paths.get("E:\\iCM106\\Java Fx\\Java_FX Final Project\\clothify-store-final-project-fX\\src\\main\\resources\\img\\" + search.getImgUrl() + ".png");
+            //Image image=new Image("E:\\iCM106\\Java Fx\\Java_FX Final Project\\clothify-store-final-project-fX\\src\\main\\resources\\img\\" + customer.getImgUrl() + ".png");
+            String imageUrl=imagePath.toUri().toString();
+
+            try {
+                Image image=new Image(imageUrl);
+                imgProduct.setImage(image);
+                imgProduct.setFitWidth(121);
+                imgProduct.setFitHeight(103);
+                imgProduct.setPreserveRatio(true);
+            }catch (Exception e){
+                new Alert(Alert.AlertType.WARNING,"Customer image not available!").show();
+                imgProduct.setImage(null);
+            }
+
+        }else {
+            new Alert(Alert.AlertType.WARNING,"Customer image not available!").show();
+            imgProduct.setImage(null);
+        }
+    }
+
     private void lordDropMenuForType() {
         ObservableList<Object> itemType= FXCollections.observableArrayList();
         itemType.add("Ladies");
@@ -106,41 +157,58 @@ public class ItemFormController implements Initializable {
         lblProfit.setText(null);
     }
     public void btnAddItemOnAction(ActionEvent actionEvent) {
-        String itemCode=txtItemCode.getText();
-        String description=txtDescription.getText();
-        Integer qty = Integer.valueOf(txtQty.getText());
-        Integer buyingPrice= Integer.valueOf(txtBuyingPrice.getText());
-        Integer sellingPrice= Integer.valueOf(txtSellingPrice.getText());
-        String type= String.valueOf(cmdSelectType.getValue());
-        String size= txtSize.getText();
-        Double profit= Double.valueOf(lblProfit.getText());
-        String supplierId= String.valueOf(cmdSelectSupplierId.getValue());
+        try {
+            String itemCode = txtItemCode.getText();
+            String description = txtDescription.getText();
+            String qtyText = txtQty.getText();
+            String buyingPriceText = txtBuyingPrice.getText();
+            String sellingPriceText = txtSellingPrice.getText();
+            String type = String.valueOf(cmdSelectType.getValue());
+            String size = txtSize.getText();
+            String profitText = lblProfit.getText();
+            String supplierId = String.valueOf(cmdSelectSupplierId.getValue());
 
-        if(itemCode == null || itemCode.trim().isEmpty() ||
-               description == null || description.trim().isEmpty()||
-                qty == null || qty <= 0 ||
-                buyingPrice == null || buyingPrice <= 0 ||
-                sellingPrice == null || sellingPrice <= 0 ||
-                type == null || type.trim().isEmpty() ||
-                size == null || size.trim().isEmpty() ||
-                profit == null || profit <= 0 ||
-                supplierId == null || supplierId.trim().isEmpty()){
+            // Validate inputs
+            if (itemCode == null || itemCode.trim().isEmpty() ||
+                    description == null || description.trim().isEmpty() ||
+                    qtyText == null || qtyText.trim().isEmpty() ||
+                    buyingPriceText == null || buyingPriceText.trim().isEmpty() ||
+                    sellingPriceText == null || sellingPriceText.trim().isEmpty() ||
+                    type == null || type.trim().isEmpty() ||
+                    size == null || size.trim().isEmpty() ||
+                    profitText == null || profitText.trim().isEmpty() ||
+                    supplierId == null || supplierId.trim().isEmpty()) {
 
-            new Alert(Alert.AlertType.ERROR,"All fields must be filled in.").show();
-            return;
-        }
+                new Alert(Alert.AlertType.ERROR, "All fields must be filled in.").show();
+                return;
+            }
 
-        Item item = new Item(itemCode, description, qty, buyingPrice,
-                sellingPrice, type, size, profit, supplierId,itemCode
-        );
-        boolean isAdd = itemBo.saveItem(item);
-        if(isAdd){
-            new Alert(Alert.AlertType.CONFIRMATION,"Customer Added....").show();
-            //clearText();
-            //generateOrderId();
-            //lordCustomerId();
-        }else {
-            new Alert(Alert.AlertType.CONFIRMATION,"Customer Not Added....").show();
+            // Parse integer and double values
+            Integer qty = Integer.valueOf(qtyText);
+            Integer buyingPrice = Integer.valueOf(buyingPriceText);
+            Integer sellingPrice = Integer.valueOf(sellingPriceText);
+            Double profit = Double.valueOf(profitText);
+
+            // Check if numeric values are valid
+            if (qty <= 0 || buyingPrice <= 0 || sellingPrice <= 0 || profit <= 0) {
+                new Alert(Alert.AlertType.ERROR, "Numeric fields must have positive values.").show();
+                return;
+            }
+
+            Item item = new Item(itemCode, description, qty, buyingPrice, sellingPrice, type, size, profit, supplierId, itemCode);
+            boolean isAdd = itemBo.saveItem(item);
+
+            if (isAdd) {
+                new Alert(Alert.AlertType.CONFIRMATION, "Item Added Successfully.").show();
+                 clearText();
+                 generateOrderId();
+            } else {
+                new Alert(Alert.AlertType.ERROR, "Item Not Added.").show();
+            }
+        } catch (NumberFormatException e) {
+            new Alert(Alert.AlertType.ERROR, "Invalid input. Please enter valid numbers.").show();
+        } catch (Exception e) {
+            new Alert(Alert.AlertType.ERROR, "An unexpected error occurred: " + e.getMessage()).show();
         }
     }
 
@@ -233,5 +301,19 @@ public class ItemFormController implements Initializable {
         } catch (NumberFormatException e) {
             new Alert(Alert.AlertType.ERROR, "Invalid input. Please enter valid numbers.").show();
         }
+    }
+
+
+
+    private void lordItemCode() {
+
+        ObservableList<Item> items = itemBo.lordItem();
+
+        ObservableList<String> itemCodes=FXCollections.observableArrayList();
+
+        items.forEach(item -> {
+            itemCodes.add(item.getItemCode());
+        });
+        cmdSelectItemCode.setItems(itemCodes);
     }
 }
