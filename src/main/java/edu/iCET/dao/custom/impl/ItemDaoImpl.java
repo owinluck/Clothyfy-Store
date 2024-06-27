@@ -1,6 +1,7 @@
 package edu.iCET.dao.custom.impl;
 
 import edu.iCET.dao.custom.ItemDao;
+import edu.iCET.db.DbConnection;
 import edu.iCET.entity.CustomerEntity;
 import edu.iCET.entity.ItemEntity;
 import edu.iCET.entity.SupplirEntity;
@@ -72,6 +73,16 @@ public class ItemDaoImpl implements ItemDao {
             }
             //System.out.println(customerList);
             return itemList;
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public boolean updateItemEntity(ItemEntity itemEntity){
+
+
+        try {
+            return DbConnection.getInstance().getConnection().createStatement().execute("UPDATE itementity set buyingPrice='"+itemEntity.getBuyingPrice()+"'"+", description='"+itemEntity.getDescription()+"'"+", imgUrl='"+itemEntity.getImgUrl()+"'"+", profit='"+itemEntity.getProfit()+"'"+", qty='"+itemEntity.getQty()+"'"+", sellingPrice='"+itemEntity.getSellingPrice()+"'"+", size='"+itemEntity.getSize()+"'"+", supplierId='"+itemEntity.getSupplierId()+"'"+", type='"+itemEntity.getType()+"'"+" WHERE itemCode='"+itemEntity.getItemCode()+"'");
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }

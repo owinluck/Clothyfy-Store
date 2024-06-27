@@ -92,7 +92,7 @@ public class ItemFormController implements Initializable {
         setSupplierDataFortxtFieldName(search.getSupplierId());
         txtDescription.setText(search.getDescription());
         txtQty.setText(String.valueOf(search.getQty()));
-        txtBuyingPrice.setText(String.valueOf(search.getSellingPrice()));
+        txtBuyingPrice.setText(String.valueOf(search.getBuyingPrice()));
         txtSellingPrice.setText(String.valueOf(search.getSellingPrice()));
         cmdSelectType.setValue(search.getType());
         txtSize.setText(search.getSize());
@@ -130,8 +130,19 @@ public class ItemFormController implements Initializable {
         cmdSelectType.setItems(itemType);
     }
     private void setSupplierDataFortxtFieldName(String newValue) {
+        if (newValue == null || newValue.isEmpty()) {
+            // Handle the case where the newValue is null or empty
+            txtSupplierName.setText("Invalid supplier ID");
+            return;
+        }
+
         Supplirs search = supplierBo.search(newValue);
-        txtSupplierName.setText(search.getName());
+        if (search != null) {
+            txtSupplierName.setText(search.getName());
+        } else {
+            // Handle the case where no supplier is found
+            txtSupplierName.setText("Supplier not found");
+        }
     }
 
     private void lordSupplierId() {
@@ -213,7 +224,39 @@ public class ItemFormController implements Initializable {
     }
 
     public void btnUpdateOnAction(ActionEvent actionEvent) {
+        String itemCode = txtItemCode.getText();
+        String description = txtDescription.getText();
+        String qtyText = txtQty.getText();
+        String buyingPriceText = txtBuyingPrice.getText();
+        String sellingPriceText = txtSellingPrice.getText();
+        String type = String.valueOf(cmdSelectType.getValue());
+        String size = txtSize.getText();
+        String profitText = lblProfit.getText();
+        String supplierId = String.valueOf(cmdSelectSupplierId.getValue());
 
+
+        Integer qty = Integer.valueOf(qtyText);
+        Integer buyingPrice = Integer.valueOf(buyingPriceText);
+        Integer sellingPrice = Integer.valueOf(sellingPriceText);
+        Double profit = Double.valueOf(profitText);
+
+        Item item = new Item(
+                itemCode, description, qty,
+                buyingPrice, sellingPrice,
+                type, size, profit, supplierId,
+                itemCode
+        );
+
+        boolean isUpdate = itemBo.update(item);
+
+        if(isUpdate){
+            new Alert(Alert.AlertType.CONFIRMATION,"Customer Not Update....").show();
+        }else {
+            new Alert(Alert.AlertType.CONFIRMATION,"Customer Update....").show();
+            clearText();
+            generateOrderId();
+            //lordItemCode();
+        }
     }
 
     public void btnDeleteOnAction(ActionEvent actionEvent) {

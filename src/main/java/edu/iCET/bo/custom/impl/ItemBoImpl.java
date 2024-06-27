@@ -3,8 +3,10 @@ package edu.iCET.bo.custom.impl;
 import edu.iCET.bo.custom.ItemBo;
 import edu.iCET.dao.DaoFactory;
 import edu.iCET.dao.custom.ItemDao;
+import edu.iCET.dto.Customer;
 import edu.iCET.dto.Item;
 import edu.iCET.dto.Supplirs;
+import edu.iCET.entity.CustomerEntity;
 import edu.iCET.entity.ItemEntity;
 import edu.iCET.entity.SupplirEntity;
 import edu.iCET.util.DaoType;
@@ -48,5 +50,11 @@ public class ItemBoImpl implements ItemBo {
             ));
         });
         return items;
+    }
+
+    public boolean update(Item item){
+
+
+        return itemDao.updateItemEntity(new ModelMapper().map(item, ItemEntity.class));
     }
 }

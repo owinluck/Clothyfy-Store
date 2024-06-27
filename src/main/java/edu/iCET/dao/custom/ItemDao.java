@@ -8,4 +8,5 @@ public interface ItemDao extends CrudDao<ItemEntity> {
 
     public ItemEntity searchItem(String itemCode);
     public ObservableList<ItemEntity> allItem();
+    public boolean updateItemEntity(ItemEntity itemEntity);
 }

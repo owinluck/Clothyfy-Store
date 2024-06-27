@@ -10,4 +10,5 @@ public interface ItemBo extends SuperBo {
     boolean saveItem(Item dto);
     public Item search(String itemCode);
     public ObservableList<Item> lordItem();
+    public boolean update(Item item);
 }

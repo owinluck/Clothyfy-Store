@@ -34,10 +34,10 @@ java:S11044"WMake imgCustomer a static final constant or non-public and provide
 ¡
 java:S11045"YMake cmdCustomerId a static final constant or non-public and provide accessors if needed.(üáÏ—ÿÿÿÿÿ8¿ Ü„2J$9017d8e2-e1f9-49c9-a43b-40280106f9a0
 œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª‘×ª8Å Ü„2J$22a0babc-c15b-49e7-9bde-a70afe5d14c8
-‹
-java:S2095ı"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÖÉ–ÿ8¨¡Ü„2J$88ca2a2c-0139-4f9d-b1f8-93da5af3b30c
 
 java:S2095ò"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8¨¡Ü„2J$51b26880-b925-4fca-b5ec-a1b821d8cf3f
+‹
+java:S2095ı"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÖÉ–ÿ8¨¡Ü„2J$88ca2a2c-0139-4f9d-b1f8-93da5af3b30c
 ƒ	java:S125["<This block of commented-out lines of code should be removed.(ŒáÜ´ùÿÿÿÿ8À¡Ü„2J$3a6d7a39-d7dc-4401-b45a-c046089025aa
 t
 java:S1602v",Remove useless curly braces around statement(ÈçŒ½şÿÿÿÿ8È¡Ü„2J$63ffb236-8747-4b8d-8d99-622c42a44d14

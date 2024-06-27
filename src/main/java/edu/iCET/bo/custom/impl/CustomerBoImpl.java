@@ -50,6 +50,7 @@ public class CustomerBoImpl implements CustomerBo {
     }
 
     public boolean delectCustomerForId(String customerId){
+
         return customerDao.deleteCustomer(customerId);
     }
     public boolean update(Customer customer){
