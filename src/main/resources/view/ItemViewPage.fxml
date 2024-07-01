@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="itemViewAnchorPane" prefHeight="518.0" prefWidth="766.0" style="-fx-background-color: #d1d1d1; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controller.item.ItemViewPageController">
+   <children>
+      <JFXButton layoutX="41.0" layoutY="20.0" onAction="#btnBackOnAction" prefHeight="39.0" prefWidth="82.0" style="-fx-background-color: #AB47BC; -fx-background-radius: 6;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblItemModel01" layoutX="31.0" layoutY="77.0" prefHeight="158.0" prefWidth="704.0">
+        <columns>
+          <TableColumn fx:id="colItemCode01" prefWidth="86.39995956420898" text="Item_Code" />
+          <TableColumn fx:id="colDescription" prefWidth="142.3999786376953" text="Description" />
+            <TableColumn fx:id="colQty" prefWidth="116.7999267578125" text="QTY" />
+            <TableColumn fx:id="cloBuyingPrice" prefWidth="116.7999267578125" text="BuyingPrice" />
+            <TableColumn fx:id="colSellingPrice" prefWidth="116.7999267578125" text="SellingPrice" />
+            <TableColumn fx:id="colType" prefWidth="124.0" text="Type" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tblItemModel02" layoutX="31.0" layoutY="281.0" prefHeight="158.0" prefWidth="704.0">
+         <columns>
+            <TableColumn fx:id="colItemCode02" prefWidth="86.39999008178711" text="Item_Code" />
+            <TableColumn fx:id="colSize" prefWidth="113.5999755859375" text="Size" />
+            <TableColumn fx:id="colProfit" prefWidth="155.2000274658203" text="Profit" />
+            <TableColumn fx:id="colSupplierId" prefWidth="168.0" text="Supplier ID" />
+            <TableColumn fx:id="colImageUrl" prefWidth="179.20001220703125" text="Image_URL" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

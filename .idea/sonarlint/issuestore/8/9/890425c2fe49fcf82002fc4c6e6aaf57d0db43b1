@@ -4,9 +4,9 @@
 	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8óøîÿ„2J$75b1c0b8-a62d-4304-b690-03a18bdd1ba9
 	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ôøîÿ„2J$5937ab23-19e2-4536-bd8d-21dd33816e14
 œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÜÓ„8£ç³Ü„2J$b417f8e9-aeba-457f-a5d3-df612a2b2034
-
-java:S2095]"GUse try-with-resources or close this "Statement" in a "finally" clause.(¡´š›şÿÿÿÿ8Üüîÿ„2J$498de3db-c8b9-4b51-a4ae-055000caf3a2
 Š
 java:S2095T"GUse try-with-resources or close this "Statement" in a "finally" clause.(ä°¢8Üüîÿ„2J$162679e7-d4c1-4771-9a7e-1022f4f86375
+
+java:S2095]"GUse try-with-resources or close this "Statement" in a "finally" clause.(¡´š›şÿÿÿÿ8Üüîÿ„2J$498de3db-c8b9-4b51-a4ae-055000caf3a2
 ‚
 java:S1128":Remove this unused import 'edu.iCET.entity.SupplirEntity'.(·Ä¼½üÿÿÿÿ8üüîÿ„2J$0ef3c714-b0e2-4123-b48f-5f25ce619056

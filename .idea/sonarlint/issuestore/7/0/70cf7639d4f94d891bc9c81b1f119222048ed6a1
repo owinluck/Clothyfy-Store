@@ -1,6 +1,9 @@
 
 v
-java:S1121".Extract the assignment out of this expression.(ÒÛÛÅúÿÿÿÿ8¥”šˆ…2J$348ced8d-8c80-4203-aa41-c5b8ca683fcc
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Òé©¼8§”šˆ…2J$2486b6c2-1234-4e69-bf94-4598867c3d73
+java:S1121".Extract the assignment out of this expression.(ÒÛÛÅúÿÿÿÿ8ü“±Í†2J$65d487e0-8c9e-48f9-86ad-1ed653a0537f
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Òé©¼8ÿ“±Í†2J$fecb68b5-83d6-4cc4-b411-d648e67a79ac
 á
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(§İüáşÿÿÿÿ8­”šˆ…2J$a693a5cf-b299-4d91-9ccc-41f1b52ed53f
+java:S6548
+"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(§İüáşÿÿÿÿ8™”±Í†2J$79be4c34-b0c6-4d80-9b33-efeb570dc523
+^
+java:S1128"ARemove this unused import 'edu.iCET.dao.custom.impl.UserDaoImpl'.(Ç§Û8µçóÍ†2

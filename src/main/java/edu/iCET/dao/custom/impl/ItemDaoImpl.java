@@ -87,4 +87,13 @@ public class ItemDaoImpl implements ItemDao {
             throw new RuntimeException(e);
         }
     }
+
+    public boolean deleteItem(String itemCode){
+
+        try {
+            return DbConnection.getInstance().getConnection().createStatement().execute("DELETE FROM  itementity WHERE itemCode='"+itemCode+"'");
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

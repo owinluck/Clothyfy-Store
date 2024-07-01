@@ -54,7 +54,11 @@ public class ItemBoImpl implements ItemBo {
 
     public boolean update(Item item){
 
-
         return itemDao.updateItemEntity(new ModelMapper().map(item, ItemEntity.class));
+    }
+
+    public boolean delete(String itemCode){
+
+        return itemDao.deleteItem(itemCode);
     }
 }

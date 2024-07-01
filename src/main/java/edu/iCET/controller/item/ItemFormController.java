@@ -13,6 +13,7 @@ import edu.iCET.util.BoType;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
@@ -22,6 +23,7 @@ import javafx.scene.input.DragEvent;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseDragEvent;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -59,6 +61,7 @@ public class ItemFormController implements Initializable {
     public JFXTextField txtSupplierName;
     public ImageView imgProduct;
     public JFXComboBox cmdSelectItemCode;
+    public AnchorPane itemFormAnchorPane;
 
     private SupplierBo supplierBo= BoFactory.getInstance().getBo(BoType.Supplirs);
     private ItemBo itemBo=BoFactory.getInstance().getBo(BoType.Item);
@@ -213,6 +216,7 @@ public class ItemFormController implements Initializable {
                 new Alert(Alert.AlertType.CONFIRMATION, "Item Added Successfully.").show();
                  clearText();
                  generateOrderId();
+                 lordItemCode();
             } else {
                 new Alert(Alert.AlertType.ERROR, "Item Not Added.").show();
             }
@@ -260,9 +264,26 @@ public class ItemFormController implements Initializable {
     }
 
     public void btnDeleteOnAction(ActionEvent actionEvent) {
+
+            boolean isDelete = itemBo.delete(txtItemCode.getText());
+            if(isDelete){
+                new Alert(Alert.AlertType.CONFIRMATION,"Item Not Delete....").show();
+            }else {
+                new Alert(Alert.AlertType.CONFIRMATION,"Item Delete....").show();
+                clearText();
+                generateOrderId();
+            }
     }
 
     public void btnViewItemOnAction(ActionEvent actionEvent) {
+
+        FXMLLoader loader=new FXMLLoader();
+        loader.setLocation(getClass().getResource("/view/ItemViewPage.fxml"));
+        try {
+            itemFormAnchorPane.getChildren().add(loader.load());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
 

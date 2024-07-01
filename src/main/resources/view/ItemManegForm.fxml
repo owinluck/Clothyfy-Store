@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="518.0" prefWidth="766.0" style="-fx-background-color: #d1d1d1; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controller.item.ItemFormController">
+<AnchorPane fx:id="itemFormAnchorPane" prefHeight="518.0" prefWidth="766.0" style="-fx-background-color: #d1d1d1; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controller.item.ItemFormController">
    <children>
       <Label layoutX="26.0" layoutY="28.0" prefHeight="462.0" prefWidth="713.0" style="-fx-background-color: #ffffff; -fx-background-radius: 5;" />
       <Label layoutX="70.0" layoutY="91.0" prefHeight="23.0" prefWidth="86.0" text="Item Code* :">
