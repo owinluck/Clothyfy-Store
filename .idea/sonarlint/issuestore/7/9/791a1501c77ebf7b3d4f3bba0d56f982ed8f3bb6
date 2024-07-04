@@ -1,77 +1,77 @@
 
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãÚ‹Ó…2J$9bfc7695-88d1-4454-b2a0-fc81561eb6fc
-	java:S112Ù"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ôóÓ…2J$a44e0857-ab12-4b6c-91a1-bca768c6534f
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ãÚ‹Ó…2J$ce5b920a-5196-45c3-9e22-57fbb56c7a1f
+	java:S112Ù"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ôóÓ…2J$51526811-b4da-4385-b022-ed2023ea40e0
 w
-java:S37402"/Provide the parametrized type for this generic.(˜¾™„ıÿÿÿÿ8äÚ‹Ó…2J$00514f00-9d66-4d38-a6c0-f2ec886ace7e
+java:S37402"/Provide the parametrized type for this generic.(˜¾™„ıÿÿÿÿ8äÚ‹Ó…2J$c58d92c6-a3ec-4bff-9e35-e2b17f140d6d
 w
-java:S37407"/Provide the parametrized type for this generic.(Øóİ¿ùÿÿÿÿ8äÚ‹Ó…2J$b2a26c31-f957-4c23-b681-2ca12265ae40
+java:S37407"/Provide the parametrized type for this generic.(Øóİ¿ùÿÿÿÿ8äÚ‹Ó…2J$11ffd416-63b1-4c25-aec1-64e1a4c7c82b
 w
-java:S37408"/Provide the parametrized type for this generic.(Šì›úÿÿÿÿ8äÚ‹Ó…2J$918b6b67-64cb-4a07-9576-8eff2358f20b
+java:S37408"/Provide the parametrized type for this generic.(Šì›úÿÿÿÿ8äÚ‹Ó…2J$6717254b-7723-472a-94f1-1a29585aba7c
 r
-java:S3740?"/Provide the parametrized type for this generic.(¾«æ“8äÚ‹Ó…2J$5be4fdef-3b62-46e7-9fa5-83b71cabbe31
+java:S3740?"/Provide the parametrized type for this generic.(¾«æ“8äÚ‹Ó…2J$0453e64a-1d8c-4ce1-a9fd-aa0d1dccc469
 Ÿ
-java:S11041"WMake txtItemCode a static final constant or non-public and provide accessors if needed.(øÜÜ¡üÿÿÿÿ8æÚ‹Ó…2J$45bff04d-e94b-43df-875b-8164d2d86dab
+java:S11041"WMake txtItemCode a static final constant or non-public and provide accessors if needed.(øÜÜ¡üÿÿÿÿ8æÚ‹Ó…2J$11dc6088-0304-44c9-8f84-d43cc2f344c5
 §
-java:S11042"_Make cmdSelectSupplierId a static final constant or non-public and provide accessors if needed.(˜¾™„ıÿÿÿÿ8æÚ‹Ó…2J$819ff36e-8ca5-4c0e-8720-f742aa97c840
+java:S11042"_Make cmdSelectSupplierId a static final constant or non-public and provide accessors if needed.(˜¾™„ıÿÿÿÿ8æÚ‹Ó…2J$cfd51333-708a-40ca-8f0d-1725ce82f51f
 ¢
-java:S11043"ZMake txtDescription a static final constant or non-public and provide accessors if needed.(«’›™ùÿÿÿÿ8æÚ‹Ó…2J$495632c2-94ee-4b4f-8cd6-0f406b6c7be1
+java:S11043"ZMake txtDescription a static final constant or non-public and provide accessors if needed.(«’›™ùÿÿÿÿ8æÚ‹Ó…2J$bbf2e495-d1d8-4393-9aeb-ccb606cd4bb6
 š
-java:S11044"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8æÚ‹Ó…2J$6592c9ca-cc39-466a-a789-0b6f2d003806
+java:S11044"RMake txtQty a static final constant or non-public and provide accessors if needed.(„¬‘³øÿÿÿÿ8æÚ‹Ó…2J$e7b5f5dc-c8fd-4a41-8414-1f9154be65d6
 
-java:S11045"ZMake txtBuyingPrice a static final constant or non-public and provide accessors if needed.(ùÊô§8æÚ‹Ó…2J$ca2ec55e-74e8-4c2a-8e16-14c4962a6318
+java:S11045"ZMake txtBuyingPrice a static final constant or non-public and provide accessors if needed.(ùÊô§8æÚ‹Ó…2J$5918ec9d-3c92-4997-a6ae-3b59cf25236f
 £
-java:S11046"[Make txtSellingPrice a static final constant or non-public and provide accessors if needed.(Çô¯Óıÿÿÿÿ8æÚ‹Ó…2J$5f0bcbc9-4205-407f-9768-7b72ce5e4e37
+java:S11046"[Make txtSellingPrice a static final constant or non-public and provide accessors if needed.(Çô¯Óıÿÿÿÿ8æÚ‹Ó…2J$7eb236f1-cdb0-4612-a376-3a5e35ec1180
 ¡
-java:S11047"YMake cmdSelectType a static final constant or non-public and provide accessors if needed.(Øóİ¿ùÿÿÿÿ8æÚ‹Ó…2J$610be9eb-dc5d-4547-a8d1-91654eb56dc6
+java:S11047"YMake cmdSelectType a static final constant or non-public and provide accessors if needed.(Øóİ¿ùÿÿÿÿ8æÚ‹Ó…2J$cb50129f-c4c7-4711-a609-6b894ec3487e
 ¡
-java:S11048"YMake cmdSelectSize a static final constant or non-public and provide accessors if needed.(Šì›úÿÿÿÿ8çÚ‹Ó…2J$1194d54f-58ee-4d68-9dc9-ce0ac7a8c190
+java:S11048"YMake cmdSelectSize a static final constant or non-public and provide accessors if needed.(Šì›úÿÿÿÿ8çÚ‹Ó…2J$e81394ab-48b1-4b5f-ab45-3eeaee5825c2
 ›
-java:S11049"SMake txtType a static final constant or non-public and provide accessors if needed.(ø¡Ëüşÿÿÿÿ8çÚ‹Ó…2J$04533995-ca06-40cb-96f5-c34ad7064be8
+java:S11049"SMake txtType a static final constant or non-public and provide accessors if needed.(ø¡Ëüşÿÿÿÿ8çÚ‹Ó…2J$8cd52d0d-5928-421f-ad4e-aa1c9a595370
 ›
-java:S1104:"SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8çÚ‹Ó…2J$12a343e4-1f33-4999-8974-32e45ee2f86c
+java:S1104:"SMake txtSize a static final constant or non-public and provide accessors if needed.(¹«¦ÿùÿÿÿÿ8çÚ‹Ó…2J$48471520-bb78-48da-a9a6-e52059b00736
 
-java:S1104;"UMake lblProfit a static final constant or non-public and provide accessors if needed.(®ğ¿ úÿÿÿÿ8çÚ‹Ó…2J$69dea03f-04fe-46ed-8428-bf5fb853af09
+java:S1104;"UMake lblProfit a static final constant or non-public and provide accessors if needed.(®ğ¿ úÿÿÿÿ8çÚ‹Ó…2J$f5861c83-18dd-4748-987f-e175129f28ae
 ˜
-java:S1104<"UMake txtSearch a static final constant or non-public and provide accessors if needed.(ïò˜§8çÚ‹Ó…2J$7b7da2ad-622a-4c3d-aa86-cf8bf1099137
+java:S1104<"UMake txtSearch a static final constant or non-public and provide accessors if needed.(ïò˜§8çÚ‹Ó…2J$5a806bf9-1a00-4593-8668-202848bcac2d
 £
-java:S1104="[Make txtSupplierName a static final constant or non-public and provide accessors if needed.(Í­´Üùÿÿÿÿ8çÚ‹Ó…2J$005114e2-e726-4eca-989f-fd71ad81b84a
+java:S1104="[Make txtSupplierName a static final constant or non-public and provide accessors if needed.(Í­´Üùÿÿÿÿ8çÚ‹Ó…2J$17a56931-60b0-4536-b16e-6885a7415c6d
 
-java:S1104>"VMake imgProduct a static final constant or non-public and provide accessors if needed.(×£³•üÿÿÿÿ8çÚ‹Ó…2J$3fec1e99-ebca-4c56-84a4-fd9a45faaa55
+java:S1104>"VMake imgProduct a static final constant or non-public and provide accessors if needed.(×£³•üÿÿÿÿ8çÚ‹Ó…2J$12a95b92-2416-40ca-8889-e93233604f68
  
-java:S1104?"]Make cmdSelectItemCode a static final constant or non-public and provide accessors if needed.(¾«æ“8çÚ‹Ó…2J$1e745725-3484-47fe-b333-b28fa2ed6960
+java:S1104?"]Make cmdSelectItemCode a static final constant or non-public and provide accessors if needed.(¾«æ“8çÚ‹Ó…2J$3791355d-fedd-4bec-9860-c9f8ef77ecfa
 ¦
-java:S1104@"^Make itemFormAnchorPane a static final constant or non-public and provide accessors if needed.(×“ö‚ùÿÿÿÿ8ĞûöÓ…2J$69c37017-64a3-4c1a-ba7e-0be2e978d96b
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßşÂ±úÿÿÿÿ8éÚ‹Ó…2J$66ca3af0-267d-47b6-9130-fc628db71761
+java:S1104@"^Make itemFormAnchorPane a static final constant or non-public and provide accessors if needed.(×“ö‚ùÿÿÿÿ8ĞûöÓ…2J$073cc306-cb7e-4104-9b6d-f1af44f4ccc7
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßşÂ±úÿÿÿÿ8éÚ‹Ó…2J$84fb6143-f315-4eea-aaaf-abfea57e2ee9
 
-java:S2095½"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8½‡—Ó…2J$9acb6c51-345d-48e3-af29-2ef49184dc04
+java:S2095È"GUse try-with-resources or close this "Statement" in a "finally" clause.(„–Ãüÿÿÿÿ8½‡—Ó…2J$4ebd6f1c-12c0-4435-8ead-5fd11ab6325d
 
-java:S2095È"GUse try-with-resources or close this "Statement" in a "finally" clause.(„–Ãüÿÿÿÿ8½‡—Ó…2J$51b7d083-6738-423f-b446-6f5faf302c12
+java:S2095½"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8½‡—Ó…2J$45dd9412-3f3a-4df9-846f-e5eca55d7121
 o
-java:S1602L",Remove useless curly braces around statement(Õªƒ¶8ÉÛ‹Ó…2J$e6315ec6-fdd5-4d8d-ab4a-577561d9debf
-~	java:S125M"<This block of commented-out lines of code should be removed.(¦µ¼8ËÛ‹Ó…2J$eae6c0bf-3ed6-4ec4-9f76-ab88ba7a53d5
-ƒ	java:S125l"<This block of commented-out lines of code should be removed.(ŒáÜ´ùÿÿÿÿ8ÏÛ‹Ó…2J$e09b2e33-4721-4704-b6d3-0a4a61d9ebf7
+java:S1602L",Remove useless curly braces around statement(Õªƒ¶8ÉÛ‹Ó…2J$e8fd2324-eda8-4b15-b0f4-6db3225a3d79
+~	java:S125M"<This block of commented-out lines of code should be removed.(¦µ¼8ËÛ‹Ó…2J$0190c40d-fe1b-48f1-8de0-89b0edaa6773
+ƒ	java:S125l"<This block of commented-out lines of code should be removed.(ŒáÜ´ùÿÿÿÿ8ÏÛ‹Ó…2J$9f416fb0-e204-427b-8201-cfb06bf8a082
 p
-java:S1602",Remove useless curly braces around statement(‡Îòò8ÔÛ‹Ó…2J$fbdbb461-afb0-47f1-a627-8559c8a2b837
+java:S1602",Remove useless curly braces around statement(‡Îòò8ÔÛ‹Ó…2J$86329039-77b2-461d-98e4-2500088cd6d6
 v
-java:S1172­"2Remove this unused method parameter "actionEvent".(ÎŠä’8ØÛ‹Ó…2J$346dc261-ab08-4c0c-a88f-8e5140c0b7c8
+java:S1172­"2Remove this unused method parameter "actionEvent".(ÎŠä’8ØÛ‹Ó…2J$c1a57f14-7268-4bba-8108-d2d2f033c3e9
 {
-java:S1172æ"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8İÛ‹Ó…2J$88fa83f4-4ea8-4255-ab4c-4ac47797bf8c
-	java:S125†"<This block of commented-out lines of code should be removed.(îá÷8Æ¾Ó…2J$1a083059-b7ba-45f9-a459-a37a415bbf20
+java:S1172æ"2Remove this unused method parameter "actionEvent".(¿˜å•øÿÿÿÿ8İÛ‹Ó…2J$94011828-2feb-4fa1-a7a2-3b7bc30d83ad
+	java:S125†"<This block of commented-out lines of code should be removed.(îá÷8Æ¾Ó…2J$723ed3e2-c649-47c4-9d8b-4fef82a8c267
 v
-java:S1172Š"2Remove this unused method parameter "actionEvent".(Œ“‘8àÛ‹Ó…2J$fea63ebf-be35-47cc-8847-83ed58ac5fff
+java:S1172Š"2Remove this unused method parameter "actionEvent".(Œ“‘8àÛ‹Ó…2J$3a2414d6-de1d-4a20-ae55-2000d94d9788
 v
-java:S1172–"2Remove this unused method parameter "actionEvent".(‚ƒàü8áÛ‹Ó…2J$d22ee252-8691-47ec-80e0-60b1571af56f
+java:S1172–"2Remove this unused method parameter "actionEvent".(‚ƒàü8áÛ‹Ó…2J$370aa3f6-c134-4cc2-b677-d9f8a929417e
 {
-java:S1172¢"2Remove this unused method parameter "actionEvent".(ø¬ıãûÿÿÿÿ8«óÓ…2J$48fac6b9-0f17-4c58-ab22-d4451351b9ca
+java:S1172¢"2Remove this unused method parameter "actionEvent".(ø¬ıãûÿÿÿÿ8«óÓ…2J$05ef82f3-e12c-446a-bc62-eeac22c864a2
 x
-java:S1172Ş"/Remove this unused method parameter "keyEvent".(ÏŞÊ¾ùÿÿÿÿ8éÛ‹Ó…2J$dc6547b6-9b12-4f2c-9288-9202f1021f78
+java:S1172Ş"/Remove this unused method parameter "keyEvent".(ÏŞÊ¾ùÿÿÿÿ8éÛ‹Ó…2J$4ea880a2-2fa4-43da-a08d-503b74a3875d
 u
-java:S1602ú",Remove useless curly braces around statement(óË°Ûıÿÿÿÿ8ëÛ‹Ó…2J$23d06287-04f4-4687-9948-68ffa7d4a7fa
+java:S1602ú",Remove useless curly braces around statement(óË°Ûıÿÿÿÿ8ëÛ‹Ó…2J$466cd755-8213-4423-96ff-de6906c1326f
 u
-java:S1128	"2Remove this unused import 'edu.iCET.dto.Customer'.(¯ìæò8µ’øÓ…2J$7bb0ba57-d117-4afa-b3be-5b25734f9268
+java:S1128	"2Remove this unused import 'edu.iCET.dto.Customer'.(¯ìæò8µ’øÓ…2J$0859c7ba-89b9-4e6c-8741-b394d049cc4b
 |
-java:S1128"9Remove this unused import 'javafx.scene.input.DragEvent'.(ğøã¬8µ’øÓ…2J$5f0fc46e-88a4-4ac0-923b-a2686c6f3354
+java:S1128"9Remove this unused import 'javafx.scene.input.DragEvent'.(ğøã¬8µ’øÓ…2J$175d0cc3-00c8-43d0-9bf1-86170739906c
 †
-java:S1128">Remove this unused import 'javafx.scene.input.MouseDragEvent'.(óÃÎüÿÿÿÿ8µ’øÓ…2J$58e93880-33b6-485c-8894-511b34ec60bf
+java:S1128">Remove this unused import 'javafx.scene.input.MouseDragEvent'.(óÃÎüÿÿÿÿ8µ’øÓ…2J$bab766b1-4d2e-47ff-b179-fd00b4f7f5b2
 ‚
-java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8µ’øÓ…2J$4df257e7-3084-456b-b18e-93b46bea4edb
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8µ’øÓ…2J$6f58ecb6-dc55-4ec1-8bfa-ab60876fa000

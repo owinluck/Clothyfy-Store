@@ -32,7 +32,13 @@ public class DashBordController implements Initializable{
     }
 
     public void btnusersOnAction(ActionEvent actionEvent) {
-
+        FXMLLoader loader=new FXMLLoader();
+        loader.setLocation(getClass().getResource("/view/UsersViewForm.fxml"));
+        try {
+            dashBordAnchorPane.getChildren().add(loader.load());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void btnsuppliersOnAction(ActionEvent actionEvent) {
@@ -46,6 +52,15 @@ public class DashBordController implements Initializable{
     }
 
     public void btnOrderOnAction(ActionEvent actionEvent) {
+
+        try {
+            Parent fxmlLorder= new FXMLLoader(getClass().getResource("/view/OrderFrom.fxml")).load();
+            Stage stage=new Stage();
+            stage.setScene(new Scene(fxmlLorder));
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void btnPaymentOnAction(ActionEvent actionEvent) {

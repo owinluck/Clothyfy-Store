@@ -9,6 +9,8 @@ import edu.iCET.dto.User;
 import edu.iCET.entity.SupplirEntity;
 import edu.iCET.entity.UserEntity;
 import edu.iCET.util.DaoType;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import org.modelmapper.ModelMapper;
 
 public class UserBoImpl implements UserBo {
@@ -25,5 +27,28 @@ public class UserBoImpl implements UserBo {
         UserEntity userEntity = userDao.searchUser(email);
 
         return new ModelMapper().map(userEntity, User.class);
+    }
+    public User searchbyId(String id){
+
+        UserEntity userEntity = userDao.searchUserById(id);
+
+        return new ModelMapper().map(userEntity, User.class);
+    }
+
+    public ObservableList<User> lordUser(){
+
+        ObservableList<User> users= FXCollections.observableArrayList();
+        ObservableList<UserEntity> userEntities = userDao.allUsers();
+
+        userEntities.forEach(userEntity ->{
+            users.add(new User(
+                    userEntity.getName(),
+                    userEntity.getEmail(),
+                    userEntity.getPassword(),
+                    userEntity.getEmpId(),
+                    userEntity.getPhoneNumber()
+            ));
+        });
+        return users;
     }
 }

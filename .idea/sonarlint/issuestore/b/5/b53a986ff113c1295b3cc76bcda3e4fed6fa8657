@@ -1,35 +1,35 @@
 
-	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ûğ–Ò†2J$afd1d81c-7bad-43f0-a186-13269d968c4c
-	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ûğ–Ò†2J$c40c7e93-1c47-4622-863e-9f25c7e9a8de
-	java:S112Æ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¥¤Õ†2J$cd8beb89-da82-4a7f-8561-bf717eb83c33
-“	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß•ÆÃ8İğ–Ò†2J$2715877c-f578-493a-b5e2-44becbc85043
-˜	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šãØ‹üÿÿÿÿ8İğ–Ò†2J$2dfbb927-cc35-438c-9a07-16b4cd44c0a3
+	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ûğ–Ò†2J$9eef5618-7fc0-4aac-a7dd-64825ffafe7c
+	java:S112§"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ûğ–Ò†2J$e353e61a-b349-43b4-91b6-380f3aaf2de2
+	java:S112Æ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¥¤Õ†2J$052a0d53-3da7-452a-a2e6-c26abb5c01ff
+“	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß•ÆÃ8İğ–Ò†2J$e93e28cf-5a7d-477f-b59d-1fd26735878c
+˜	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šãØ‹üÿÿÿÿ8İğ–Ò†2J$1d1aa730-365f-4c06-9e5f-4c90dbd714db
 œ
-java:S1104#"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8ßğ–Ò†2J$72456dc7-e607-4b82-b635-296d93782245
+java:S1104#"TMake txtEmail a static final constant or non-public and provide accessors if needed.(Ø¦½üÿÿÿÿ8ßğ–Ò†2J$296fe34c-83d1-4b33-8f70-4cd3c8c1e869
 ¨
-java:S1104%"`Make lblNotValiedPassword a static final constant or non-public and provide accessors if needed.(…©ĞÁøÿÿÿÿ8ßğ–Ò†2J$db8c0706-3971-4e7d-a16d-523d9d850dec
+java:S1104%"`Make lblNotValiedPassword a static final constant or non-public and provide accessors if needed.(…©ĞÁøÿÿÿÿ8ßğ–Ò†2J$30ad58f5-5b9b-4b01-8889-f328d23c39aa
 š
-java:S1104&"WMake txtPassword a static final constant or non-public and provide accessors if needed.(Óšº÷8ßğ–Ò†2J$ac9a73aa-848d-4271-9b73-2f7417e8cf2d
+java:S1104&"WMake txtPassword a static final constant or non-public and provide accessors if needed.(Óšº÷8ßğ–Ò†2J$01a85286-7f45-4863-a566-6bcee8ac54cf
 Ÿ
-java:S1104'"WMake btnRegister a static final constant or non-public and provide accessors if needed.(·Ïê»ÿÿÿÿÿ8ßğ–Ò†2J$335b16a7-f2ce-43c9-8f29-84676181f113
+java:S1104'"WMake btnRegister a static final constant or non-public and provide accessors if needed.(·Ïê»ÿÿÿÿÿ8ßğ–Ò†2J$af7b0e11-e9ce-488b-835c-55fe0ef0b374
 —
-java:S1104("TMake btnLogin a static final constant or non-public and provide accessors if needed.(Ş˜ÕÓ8¦“›Ò†2J$eda29da0-b3c2-41fd-a129-ed63ecc7e79e
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰Àáô8âğ–Ò†2J$573f2da5-c970-4a34-ab85-8c403049414f
+java:S1104("TMake btnLogin a static final constant or non-public and provide accessors if needed.(Ş˜ÕÓ8¦“›Ò†2J$fc972153-7051-4f23-898c-d93d858b2621
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰Àáô8âğ–Ò†2J$1d315d69-1c26-4346-9140-c2a5b63d43b5
 Œ
-java:S2583"CChange this condition so that it does not always evaluate to "true"( Ş’œşÿÿÿÿ8ñ–Ò†2J$db26050b-58de-4cd8-82f9-849c917316b4
+java:S2583"CChange this condition so that it does not always evaluate to "true"( Ş’œşÿÿÿÿ8ñ–Ò†2J$98ea11f0-49c1-4c75-9570-08780bb6bd2d
 `
-java:S2119?"Save and re-use this "Random".(¼İÅf8¯ñ–Ò†2J$e6811f02-2091-4f68-a3d7-404e5a3db484
+java:S2119?"Save and re-use this "Random".(¼İÅf8¯ñ–Ò†2J$6b4deded-1f69-4dcb-977a-be6f24b3a140
 y
-java:S2696@"6Make the enclosing method "static" or remove this set.(ù†ÔÅ8°ñ–Ò†2J$eca68109-d91c-48e5-8cf9-70b2174e00f1
+java:S2696@"6Make the enclosing method "static" or remove this set.(ù†ÔÅ8°ñ–Ò†2J$b07c4c0e-6a97-4839-8240-7878745e02f1
 }
-java:S1161D":Add the "@Override" annotation above this method signature(‡èú×8³ñ–Ò†2J$aad76ebd-f7e5-4129-8499-e3d24c0e6f14
+java:S1161D":Add the "@Override" annotation above this method signature(‡èú×8³ñ–Ò†2J$746c98f2-29ef-4869-b228-8fad281c666c
 u
-java:S1172u"2Remove this unused method parameter "actionEvent".(İºÅ½8¾ñ–Ò†2J$2667876b-5617-4bb3-a03c-3264d68cb205
+java:S1172u"2Remove this unused method parameter "actionEvent".(İºÅ½8¾ñ–Ò†2J$a47022ae-0c35-4beb-af89-818a2e2de6ab
 ˆ
-java:S1117x"ERename "encryptedpassword" which hides the field declared at line 41.(àÒÆ´8¿ñ–Ò†2J$255dcd45-2411-4c86-8cf7-1383280e0bb6
+java:S1117x"ERename "encryptedpassword" which hides the field declared at line 41.(àÒÆ´8¿ñ–Ò†2J$b1b1cd91-383a-4569-bf7c-210ac61ab266
 
-java:S1764"ECorrect one of the identical sub-expressions on both sides of equals.( Ş’œşÿÿÿÿ8Ãñ–Ò†2J$058557ee-5cdd-4e20-bbd2-2bcde0b729f4
+java:S1764"ECorrect one of the identical sub-expressions on both sides of equals.( Ş’œşÿÿÿÿ8Ãñ–Ò†2J$18cbc408-9da9-4908-a741-b5a15344bfb1
 {
-java:S1172"2Remove this unused method parameter "actionEvent".(Úó¥üøÿÿÿÿ8Ññ–Ò†2J$141a8910-ba5d-4845-84e8-441e08883b2a
+java:S1172"2Remove this unused method parameter "actionEvent".(Úó¥üøÿÿÿÿ8Ññ–Ò†2J$3ce76078-3733-42e1-bbee-597b409da8ae
 {
-java:S1172«"2Remove this unused method parameter "actionEvent".(Ùõášşÿÿÿÿ8›‚¤Õ†2J$4d33713e-d7a1-4344-88cc-c971a63cc8c5
+java:S1172«"2Remove this unused method parameter "actionEvent".(Ùõášşÿÿÿÿ8›‚¤Õ†2J$2a7ab189-f627-4332-9a7b-663d2b06d3b5

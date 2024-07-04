@@ -1,6 +1,8 @@
 
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÚİ—úÿÿÿÿJ$f0c5056a-9186-48e6-9c5e-a8fd67f30f64
-œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€Óµ˜8ÛÓä2J$94a929f4-5ef7-4ae5-800c-5e5f8d8601cf
-œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€Óµ˜8Îƒã‡„2J$cb341361-731b-4d00-b9c8-0db62a118962
-œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€Óµ˜8µÿƒ…2J$12811041-cd8a-4965-9524-b9858c41ee96
-œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€Óµ˜8š®Ê†2J$9e9ba718-0d06-491e-a305-3c0f1ef791c1
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÚİ—úÿÿÿÿJ$2baced4b-f2b4-40cd-98ac-a8b3d30a290f
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ï¢¬8ÛÓä2J$56d056a3-f46d-4310-aae6-90d38dbc2b15
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ï¢¬8Îƒã‡„2J$5eee3903-3286-4d18-9bd5-9310396282d7
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ï¢¬8µÿƒ…2J$7a4fa36c-c4a2-4207-88fb-771c78c767e6
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ï¢¬8š®Ê†2J$5ed05b81-0c6f-4cad-a40e-298500367d71
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ï¢¬8—ç‘¨‡2J$b1e6f2b0-7008-42f1-98f6-9631ca9f9f66
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.( ï¢¬8àŸ¼‡2J$317d85ee-24dd-474d-8506-0a1bf8de40ba

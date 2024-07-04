@@ -5,6 +5,8 @@ import edu.iCET.entity.SupplirEntity;
 import edu.iCET.entity.UserEntity;
 import edu.iCET.util.CrudUtil;
 import edu.iCET.util.HibernateUtil;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import org.hibernate.Session;
 
 import java.sql.ResultSet;
@@ -40,5 +42,48 @@ public class UserDaoImpl implements UserDao {
             throw new RuntimeException(e);
         }
         return null;
+    }
+
+    public UserEntity searchUserById(String userId){
+
+        try {
+            ResultSet resultSet = CrudUtil.execute("SELECT * FROM userentity WHERE empId ='"+ userId+"'");
+
+            while (resultSet.next()){
+                return new UserEntity(
+                        resultSet.getString(3),
+                        resultSet.getString(1),
+                        resultSet.getString(4),
+                        resultSet.getString(2),
+                        resultSet.getString(5)
+                );
+            }
+        } catch (ClassNotFoundException | SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return null;
+    }
+
+    public ObservableList<UserEntity> allUsers(){
+        ObservableList<UserEntity> userList= FXCollections.observableArrayList();
+
+        try {
+            ResultSet resultSet = CrudUtil.execute("SELECT * FROM userentity;");
+
+            while (resultSet.next()){
+                userList.add(new UserEntity(
+                        resultSet.getString(3),
+                        resultSet.getString(1),
+                        resultSet.getString(4),
+                        resultSet.getString(2),
+                        resultSet.getString(5)
+                        )
+                );
+            }
+
+            return userList;
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

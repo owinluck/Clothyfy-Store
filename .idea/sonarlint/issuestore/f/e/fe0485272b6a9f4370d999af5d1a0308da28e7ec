@@ -4,10 +4,10 @@
 	java:S112Q"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ƒâ…€…2J$ecf36c52-3ae2-4467-87af-e5e1beeb674a
 	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8„â…€…2J$cc0a0118-610a-44e1-a401-efbd1e54a979
 œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÜÓ„8Šâ…€…2J$cac00f15-3965-46c7-9538-da55634a04ac
-Š
-java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.(¢ˆ°Ë8Ãâ…€…2J$689d5054-4bc4-4c9e-b53f-b33f8e268bb5
 ‰
 java:S2095O"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÿŠ:8Ââ…€…2J$635c9b47-6c56-4b55-b30b-867ea3565d8e
+Š
+java:S2095X"GUse try-with-resources or close this "Statement" in a "finally" clause.(¢ˆ°Ë8Ãâ…€…2J$689d5054-4bc4-4c9e-b53f-b33f8e268bb5
 ~
 java:S1128"6Remove this unused import 'org.hibernate.query.Query'.(¤— ´ûÿÿÿÿ8‘ò€…2J$c394ce89-a5b3-44d2-a65d-47adb884d4fe
 z

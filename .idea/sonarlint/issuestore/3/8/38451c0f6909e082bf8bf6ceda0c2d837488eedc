@@ -1,53 +1,48 @@
 
-	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8áÿ°¹ƒ2J$2d5b08de-45b2-4bdc-aaf1-74e1dccc0fc1
-	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8âÿ°¹ƒ2J$22862f33-0df2-4522-bdc8-41f7a7af24dc
-	java:S112G"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‰ıƒ„2J$4cee8deb-faf8-43c9-b287-f498ad0338cb
-	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8£°ò„2J$63377196-8313-4234-b1f8-320d47941824
+	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8áÿ°¹ƒ2J$21ff3aea-5898-40f3-99b2-1466f5d3348d
+	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8âÿ°¹ƒ2J$060e70cb-f1ea-40d4-a5e4-5f6e450e3d65
+	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‰ıƒ„2J$029c2c3b-fcb5-4943-93bc-5778e217653e
+	java:S112L"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8£°ò„2J$1c977b31-fdb1-4965-a010-09e7f776b40f
+	java:S112V"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ºêŸê†2J$0f3f13b6-666c-4ffa-8f13-b9789d4cb8fb
+	java:S112c"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¹£ØĞ‡2J$bd95ae58-87c1-494d-a396-9811887e0978
 ¦
-java:S1104"^Make dashBordAnchorPane a static final constant or non-public and provide accessors if needed.(ö¢œüøÿÿÿÿ8ãÿ°¹ƒ2J$142f06ce-d74f-4110-878d-6158e65bc0fb
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰Àáô8äÿ°¹ƒ2J$c7d71bf7-c4de-44ad-8b61-cf615c79adeb
+java:S1104"^Make dashBordAnchorPane a static final constant or non-public and provide accessors if needed.(ö¢œüøÿÿÿÿ8ãÿ°¹ƒ2J$3be8301b-5ae5-4f46-895e-ee3b7904d91b
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰Àáô8äÿ°¹ƒ2J$317dcccc-2659-48d9-856a-a22027317344
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8øÿ°¹ƒ2J$e6f2cdf0-1c9d-444d-9353-7a4774add330
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8øÿ°¹ƒ2J$5ef0b466-b0bd-4983-95f7-b1f556f61611
 É
-java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—™æîıÿÿÿÿ8øÿ°¹ƒ2J$873c429e-3002-488a-9cb1-069599c05a0b
-É
-java:S11860"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñí“°üÿÿÿÿ8øÿ°¹ƒ2J$2b3030d3-c9f2-4708-8ffa-7d8755697fe4
-É
-java:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğñ‡¿şÿÿÿÿ8øÿ°¹ƒ2J$1e678b33-c8f8-4038-9834-d565f3c89725
+java:S1186B"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ğñ‡¿şÿÿÿÿ8øÿ°¹ƒ2J$331242b6-c817-49c5-81a9-30695dfd91e1
 Ä
-java:S1186K"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õíçÏ8ùÿ°¹ƒ2J$8a581786-fe92-4a46-9b9c-19b666bfd4ee
+java:S1186Z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õíçÏ8ùÿ°¹ƒ2J$455633c0-d189-48ff-a446-0a92aecc8213
 z
-java:S1172&"2Remove this unused method parameter "actionEvent".(Äª€ûÿÿÿÿ8ıÿ°¹ƒ2J$b27205f2-fd9b-4d1f-9b5d-ea0a1b95527f
+java:S1172""2Remove this unused method parameter "actionEvent".(—™æîıÿÿÿÿ8ıÿ°¹ƒ2J$980c5fac-3fd6-4a74-a6d1-4d46644c05f0
 z
-java:S11727"2Remove this unused method parameter "actionEvent".(¯Àå¹úÿÿÿÿ8ƒ€±¹ƒ2J$e0bf9d7e-9fee-4284-876e-e218d1cf6fe0
+java:S1172,"2Remove this unused method parameter "actionEvent".(Äª€ûÿÿÿÿ8ƒ€±¹ƒ2J$c1964521-13e8-4df4-a2c5-3417c46de7cc
+z
+java:S11726"2Remove this unused method parameter "actionEvent".(ñí“°üÿÿÿÿ8Â‰ıƒ„2J$e9c265ff-9c39-44a4-af25-2a1c3beb626e
+z
+java:S1172F"2Remove this unused method parameter "actionEvent".(¯Àå¹úÿÿÿÿ8€¤°ò„2J$f09feb74-0fd0-4812-a364-af5cc9aff9f4
 u
-java:S1172A"2Remove this unused method parameter "actionEvent".(Å‡¦Ô8Â‰ıƒ„2J$d76c7d35-29d5-458d-b4df-f8047416986c
+java:S1172P"2Remove this unused method parameter "actionEvent".(Å‡¦Ô8¯ëŸê†2J$83aca127-77ad-4181-a3cd-36917643dfd3
 u
-java:S1172N"2Remove this unused method parameter "actionEvent".(¢ÀüÕ8€¤°ò„2J$2a9a3527-0eaf-4752-b29e-66ff54f72b51
+java:S1172]"2Remove this unused method parameter "actionEvent".(¢ÀüÕ8ô£ØĞ‡2J$290dd476-19bd-4a09-a212-4c8e01091cba
 }
-java:S1128";Remove this unused import 'com.jfoenix.controls.JFXButton'.(„•£8‡€±¹ƒ2J$b582061d-d209-495f-9a30-205afcf3f7d6
+java:S1128";Remove this unused import 'com.jfoenix.controls.JFXButton'.(„•£8Õ†àĞ‡2J$1cef93bc-50c7-42b2-9e69-40e403e3d1c6
 z
-java:S1128"7Remove this unused import 'javafx.animation.Animation'.(Æ“ğò8‡€±¹ƒ2J$f62e46fb-4055-47fa-a2cc-a55ae54478f3
+java:S1128"7Remove this unused import 'javafx.animation.Animation'.(Æ“ğò8Õ†àĞ‡2J$96d0bd60-918b-4b68-882f-de735ea47495
 x
-java:S1128"6Remove this unused import 'javafx.animation.KeyFrame'.(æ™†v8‡€±¹ƒ2J$678055c2-8555-41c7-966e-fdb886f6be1d
+java:S1128"6Remove this unused import 'javafx.animation.KeyFrame'.(æ™†v8Õ†àĞ‡2J$dc57ac57-e46d-4217-9ede-2814d0755f30
 ~
-java:S1128"6Remove this unused import 'javafx.animation.Timeline'.(˜‰ë÷øÿÿÿÿ8‡€±¹ƒ2J$6383c6ec-24df-41d8-8a5c-434990878fab
-s
-java:S1128
-"0Remove this unused import 'javafx.scene.Parent'.(²ä¡È8‡€±¹ƒ2J$37480054-ae13-4e6f-95e5-d54b2d55f18a
-r
-java:S1128"/Remove this unused import 'javafx.scene.Scene'.(Õü²8‡€±¹ƒ2J$376aff99-7d22-4fa2-a609-d021ed9598bb
+java:S1128"6Remove this unused import 'javafx.animation.Timeline'.(˜‰ë÷øÿÿÿÿ8Õ†àĞ‡2J$c5941af8-623c-4a38-8b6e-10592dbfdc4b
 
-java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ8‡€±¹ƒ2J$b69f19bc-3907-49cd-98f9-d998198de9bf
+java:S1128"7Remove this unused import 'javafx.scene.control.Label'.(ö²­ÿÿÿÿÿ8Õ†àĞ‡2J$0052435d-17d0-4570-94d8-a9d6498c7642
 ƒ
-java:S1128";Remove this unused import 'javafx.scene.layout.BorderPane'.(Îî¥üÿÿÿÿ8‡€±¹ƒ2J$d7ef342b-2b84-464f-8f37-4c31df104c7b
-w
-java:S1128"/Remove this unused import 'javafx.stage.Stage'.(æÄ¸²úÿÿÿÿ8‡€±¹ƒ2J$1abcc9e8-915d-41a9-bff5-c96df75b5507
+java:S1128";Remove this unused import 'javafx.scene.layout.BorderPane'.(Îî¥üÿÿÿÿ8Õ†àĞ‡2J$f0548b95-cf9f-43e7-8546-e1c08cf1ebe3
 t
-java:S1128"1Remove this unused import 'javafx.util.Duration'.(ç½®§8‡€±¹ƒ2J$de4aaed4-4837-4d63-a2a0-6a8b8bc9199f
+java:S1128"1Remove this unused import 'javafx.util.Duration'.(ç½®§8Õ†àĞ‡2J$0cd9a24c-fd4d-40a2-9a52-f4f1ca2db1b0
 z
-java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8‡€±¹ƒ2J$18ea78d8-2e27-41e4-b3ad-6f696ac5fe4e
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8Õ†àĞ‡2J$804275a4-6201-4009-80df-e8e5452ce568
 x
-java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8‡€±¹ƒ2J$93bcf94b-bd1e-41cc-b1ab-729e3cfe5e08
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8Õ†àĞ‡2J$bb50541b-75df-4118-ad96-b046861221a3
 n
-java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8‡€±¹ƒ2J$ada1b5a5-dddc-44b4-9854-d8d903040c03
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8Õ†àĞ‡2J$b6038fa0-5d0d-4ee8-8fc4-8afb459d5978
