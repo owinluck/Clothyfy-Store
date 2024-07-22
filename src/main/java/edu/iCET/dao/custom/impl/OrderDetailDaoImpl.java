@@ -2,11 +2,16 @@ package edu.iCET.dao.custom.impl;
 
 import edu.iCET.dao.custom.OrderDao;
 import edu.iCET.dao.custom.OrderDetailDao;
+import edu.iCET.db.DbConnection;
 import edu.iCET.dto.OrderDetail;
+import edu.iCET.entity.ItemEntity;
 import edu.iCET.entity.OrderDetailEntity;
 import edu.iCET.entity.OrderEntity;
+import edu.iCET.entity.SupplirEntity;
 import edu.iCET.util.CrudUtil;
 import edu.iCET.util.HibernateUtil;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import org.hibernate.Session;
 
 import java.sql.ResultSet;
@@ -61,10 +66,50 @@ public class OrderDetailDaoImpl implements OrderDetailDao {
         }
     }
 
+    public ObservableList<OrderDetailEntity> allOrder(){
+        ObservableList<OrderDetailEntity> orderList= FXCollections.observableArrayList();
+
+        try {
+            ResultSet resultSet = CrudUtil.execute("SELECT * FROM orderdetail");
+
+            while (resultSet.next()){
+                orderList.add(new OrderDetailEntity(
+                                resultSet.getString(1),
+                                resultSet.getString(2),
+                                resultSet.getString(3),
+                                resultSet.getInt(4),
+                                resultSet.getDouble(5),
+                                resultSet.getDouble(6),
+                                resultSet.getString(7),
+                                resultSet.getDouble(8),
+                                resultSet.getString(9),
+                                resultSet.getString(10)
+                        )
+                );
+            }
+            //System.out.println(customerList);
+            return orderList;
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
     @Override
     public boolean save(OrderDetailEntity dto) {
         return false;
     }
+
+    public boolean update(OrderDetailEntity orderEntity){
+
+        //System.out.println(orderEntity);
+
+        try {
+            return DbConnection.getInstance().getConnection().createStatement().execute("UPDATE orderdetail SET orderId='" + orderEntity.getOrderId() + "'"+",itemCode='" + orderEntity.getItemCode() + "'"+",description='"+orderEntity.getDescription()+"'"+",qty='"+orderEntity.getQty()+"'"+",unitPrice='"+orderEntity.getUnitPrice()+"'"+",amount='"+orderEntity.getAmount()+"'"+",size='"+orderEntity.getSize()+"'"+",discount='"+orderEntity.getDiscount()+"'"+",type='"+orderEntity.getType()+"'"+",paymentType='"+orderEntity.getPaymentType()+"'"+"WHERE orderId='"+orderEntity.getOrderId()+"'"+"AND itemCode='"+orderEntity.getItemCode()+"'");
+        } catch (SQLException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
+
+//"WHERE supplierId='"+supplirEntity.getSupplierId()+"'"
 
 

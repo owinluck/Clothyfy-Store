@@ -17,11 +17,17 @@ import javafx.animation.Timeline;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.AnchorPane;
+import javafx.stage.Stage;
 import javafx.util.Duration;
 
+import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -77,7 +83,7 @@ public class OrderManegFromController implements Initializable {
     public JFXTextField txtCash;
     public Label lblBalance;
     public Label lblTime;
-
+    public AnchorPane orderAnchorPane;
     private double netTotal=0;
     private double netDiscount=0;
     private UserBo userBo= BoFactory.getInstance().getBo(BoType.User);
@@ -395,5 +401,17 @@ public class OrderManegFromController implements Initializable {
 
         lblBalance.setText(blance+"0 /=");
 
+    }
+
+    public void btnViewOrderOnAction(ActionEvent actionEvent) {
+
+        try {
+            Parent fxmlLorder= new FXMLLoader(getClass().getResource("/view/OrderManegForm.fxml")).load();
+            Stage stage=new Stage();
+            stage.setScene(new Scene(fxmlLorder));
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

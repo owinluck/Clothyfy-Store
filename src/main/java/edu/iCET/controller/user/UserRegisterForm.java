@@ -54,7 +54,7 @@ public class UserRegisterForm implements Initializable {
     public Label lblEmpId;
 
     private String encryptedpassword=null;
-    String adminPassword="admin";
+    String adminPassword="2003Owin";
 
     private UserBo userBo= BoFactory.getInstance().getBo(BoType.User);
     public void btnSendOnAction(ActionEvent actionEvent) {
@@ -85,8 +85,8 @@ public class UserRegisterForm implements Initializable {
     public void sendOtpEmail() {
 
 
-        String USERNAME = "email"; // your new email
-        String PASSWORD = "////"; // your new password
+        String USERNAME = "clothyfystore@gmail.com"; // your new email
+        String PASSWORD = "lczv zhpz hnrs dukm"; // your new password
 
         // Set up the SMTP server properties
         Properties properties = new Properties();
@@ -113,7 +113,7 @@ public class UserRegisterForm implements Initializable {
             // Create a new email message
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress(USERNAME));
-            message.setRecipient(Message.RecipientType.TO, new InternetAddress("YOUR EMAIL")); // sender Email
+            message.setRecipient(Message.RecipientType.TO, new InternetAddress("owinlakshitha@gmail.com")); // sender Email
             message.setSentDate(new Date());
             message.setSubject("Clothify Store");
             message.setText("Your OTP is: " + randomNumber);

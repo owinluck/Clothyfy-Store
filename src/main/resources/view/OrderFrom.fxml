@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="611.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controller.order.OrderManegFromController">
+<AnchorPane fx:id="orderAnchorPane" prefHeight="611.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.iCET.controller.order.OrderManegFromController">
    <children>
       <Label layoutX="479.0" layoutY="42.0" prefHeight="255.0" prefWidth="513.0" style="-fx-background-color: #B0BEC5;" />
       <Label layoutX="22.0" layoutY="42.0" prefHeight="255.0" prefWidth="457.0" style="-fx-background-color: #B0BEC5;" />
@@ -119,7 +119,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <JFXButton layoutX="887.0" layoutY="561.0" onAction="#btnPlaceOrderOnAction" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #E53935; -fx-background-radius: 5;" text="Palce Order" textFill="WHITE">
+      <JFXButton layoutX="762.0" layoutY="561.0" onAction="#btnPlaceOrderOnAction" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #E53935; -fx-background-radius: 5;" text="Palce Order" textFill="WHITE">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -195,5 +195,10 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
+      <JFXButton layoutX="875.0" layoutY="561.0" onAction="#btnViewOrderOnAction" prefHeight="35.0" prefWidth="108.0" style="-fx-background-color: #43A047; -fx-background-radius: 5;" text="View Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
    </children>
 </AnchorPane>
